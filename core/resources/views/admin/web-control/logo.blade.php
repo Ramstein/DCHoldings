@@ -16,7 +16,7 @@
                         <div class="form-group">
                             <div class="custom-file">
                                 <input type="file" class="custom-file-input" id="customFileLang" name="logo" lang="en" required>
-                                <label class="custom-file-label" for="customFileLang">{{__('Choose Media')}}</label>
+                                <label class="custom-file-label" for="customFileLang">{{__('Choose Media, Size: 904x570')}}</label>
                             </div>
                         </div>              
                         <div class="text-left">
@@ -50,7 +50,7 @@
                         <div class="form-group">
                             <div class="custom-file">
                                 <input type="file" class="custom-file-input" id="customFileLang1" name="favicon" lang="en" required>
-                                <label class="custom-file-label sdsd" for="customFileLang1">{{__('Choose Media')}}</label>
+                                <label class="custom-file-label sdsd" for="customFileLang1">{{__('Choose Media, Size: 200x200')}}</label>
                             </div>
                         </div>              
                         <div class="text-left">

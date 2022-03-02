@@ -448,7 +448,7 @@
                         @endforeach
                         @else
                         <div class="col-md-12 col-lg-12 mb-3 mb-md-5 mb-lg-0">
-                            <span class="d-block small text-dark-70 font-weight-bold text-center text-cap mb-2">Nothing
+                            <span class="d-block small text-dark font-weight-bold text-center text-cap mb-2">Nothing
                                 Found</span>
                         </div>
                         @endif

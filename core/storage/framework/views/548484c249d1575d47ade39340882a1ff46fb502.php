@@ -49,7 +49,7 @@
                     <div class="custom-control custom-control-alternative custom-checkbox mb-5">
                         <input class="custom-control-input" id=" customCheckLogin" type="checkbox" name="terms" checked required>
                         <label class="custom-control-label" for=" customCheckLogin">
-                                <p class="text-muted">This transaction requires your consent before continuing. Read <a href="<?php echo e(route('terms')); ?>">Terms & Conditions</a></p>
+                                <p class="text-muted">This transaction requires your consent before continuing. Read <a href="<?php echo e(route('terms')); ?>" target="_blank">Terms & Conditions</a></p>
                         </label>
                     </div>                   
                     <div class="text-center">

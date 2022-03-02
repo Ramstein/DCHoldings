@@ -78,7 +78,7 @@
                 <div class="form-group">
                   <div class="custom-file">
                     <input type="file" class="custom-file-input" id="customFileLang" name="image" accept="image/*" required>
-                    <label class="custom-file-label" for="customFileLang">{{__('Choose Media')}}</label>
+                    <label class="custom-file-label" for="customFileLang">{{__('Choose Media, Max: 500x500')}}</label>
                   </div> 
                 </div>              
               <div class="text-right">

@@ -44,7 +44,7 @@
                                 <label class="col-form-label col-lg-2">{{__('Thumbnail')}}:</label>
                                 <div class="col-lg-10">
                                         <input type="file" class="custom-file-input" id="customFileLang" name="image" lang="en">
-                                        <label class="custom-file-label" for="customFileLang" style="border-color: {{$set->s_c}};">{{__('Choose Media')}}</label>
+                                        <label class="custom-file-label" for="customFileLang" style="border-color: {{$set->s_c}};">{{__('Choose Media, Size: 1000x1000 Max')}}</label>
                                 </div>
                             </div>              
                             <div class="form-group row">

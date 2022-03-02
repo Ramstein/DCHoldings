@@ -111,7 +111,7 @@
                             <div class="form-group">
                                 <div class="custom-file">
                                     <input type="file" class="custom-file-input" id="customFileLang" name="image" lang="en">
-                                    <label class="custom-file-label" for="customFileLang">{{__('Choose Media')}} *</label>
+                                    <label class="custom-file-label" for="customFileLang">{{__('Choose Media, Size Allowed (500 x 280)')}} *</label>
                                 </div>
                             </div>   
                             <div class="form-group row">

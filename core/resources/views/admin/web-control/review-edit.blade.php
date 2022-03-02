@@ -36,7 +36,7 @@
                                 <label class="col-form-label col-lg-2">{{__('Image')}}:</label>
                                 <div class="col-lg-10">
                                     <input type="file" class="custom-file-input" id="customFileLang" name="update" lang="en">
-                                    <label class="custom-file-label" for="customFileLang" style="border-color: {{$set->s_c}};">{{__('Choose Media')}}</label>
+                                    <label class="custom-file-label" for="customFileLang" style="border-color: {{$set->s_c}};">{{__('Choose Media, Size: 400x500')}}</label>
                                 </div>
                             </div>           
                             <div class="text-right">

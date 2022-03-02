@@ -81,7 +81,7 @@
               <label class="custom-control-label" for="termsCheckbox">
                 <small>
                   I agree to the
-                  <a class="link-underline" href="<?php echo e(route('terms')); ?>">Terms and Conditions</a>
+                  <a class="link-underline" href="<?php echo e(route('terms')); ?>" target="_blank">Terms and Conditions</a>
                 </small>
               </label>
             </div>

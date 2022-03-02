@@ -1,2 +1,3 @@
 core/.env
 core/storage/logs/laravel.log
+core/storage/framework/*

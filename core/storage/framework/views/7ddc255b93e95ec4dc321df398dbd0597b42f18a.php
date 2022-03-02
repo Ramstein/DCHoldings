@@ -40,9 +40,9 @@
                             </div> 
                             <div class="form-group row">
                                 <label class="col-form-label col-lg-2"><?php echo e(__('Thumbnail')); ?>:</label>
-                                <div class="col-lg-10 form-control">
+                                <div class="col-lg-10">
                                         <input type="file" class="custom-file-input" id="customFileLang" name="image" lang="en">
-                                        <label class="custom-file-label" for="customFileLang" style="border-color: <?php echo e($set->s_c); ?>;"><?php echo e(__('Choose Media')); ?></label>
+                                        <label class="custom-file-label" for="customFileLang" style="border-color: <?php echo e($set->s_c); ?>;"><?php echo e(__('Choose Media, Size: 1000x1000 Max')); ?></label>
                                 </div>
                             </div>              
                             <div class="form-group row">

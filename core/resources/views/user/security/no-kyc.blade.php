@@ -9,7 +9,7 @@
           @csrf
           <div class="mb-5 mb-md-7">
             <h1 class="h2">{{ __('KYC VERIFICATION') }}</h1>
-            <p>{{ __('Ensure document provided contains thesame information as of registration') }}</p>
+            <p>{{ __('Ensure document provided contains the same information as of registration') }}</p>
           </div>
           <!-- End Title -->
 
@@ -27,7 +27,7 @@
                     <div class="form-group">
                         <div class="custom-file">
                             <input type="file" class="custom-file-input" id="customFileLang" name="image" accept="image/*">
-                            <label class="custom-file-label" for="customFileLang">{{__('Select document')}}</label>
+                            <label class="custom-file-label" for="customFileLang">{{__('Select document (JPG, PNG), Size: 1920x1080')}}</label>
                         </div> 
                     </div> 
                     @if ($errors->has('image'))

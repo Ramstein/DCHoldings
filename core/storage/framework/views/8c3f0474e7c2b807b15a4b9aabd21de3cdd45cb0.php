@@ -7,7 +7,7 @@
           <?php echo csrf_field(); ?>
           <div class="mb-5 mb-md-7">
             <h1 class="h2"><?php echo e(__('KYC VERIFICATION')); ?></h1>
-            <p><?php echo e(__('Ensure document provided contains thesame information as of registration')); ?></p>
+            <p><?php echo e(__('Ensure document provided contains the same information as of registration')); ?></p>
           </div>
           <!-- End Title -->
 
@@ -25,7 +25,7 @@
                     <div class="form-group">
                         <div class="custom-file">
                             <input type="file" class="custom-file-input" id="customFileLang" name="image" accept="image/*">
-                            <label class="custom-file-label" for="customFileLang"><?php echo e(__('Select document')); ?></label>
+                            <label class="custom-file-label" for="customFileLang"><?php echo e(__('Select document (JPG, PNG), Size: 1920x1080')); ?></label>
                         </div> 
                     </div> 
                     <?php if($errors->has('image')): ?>
