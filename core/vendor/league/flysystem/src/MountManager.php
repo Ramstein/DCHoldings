@@ -5,7 +5,6 @@ namespace League\Flysystem;
 use InvalidArgumentException;
 use League\Flysystem\Plugin\PluggableTrait;
 use League\Flysystem\Plugin\PluginNotFoundException;
-use Log;
 
 /**
  * Class MountManager.
@@ -93,11 +92,9 @@ class MountManager implements FilesystemInterface
      */
     public function getFilesystem($prefix)
     {
-        Log::info($prefix);
         if ( ! isset($this->filesystems[$prefix])) {
             throw new FilesystemNotFoundException('No filesystem mounted with prefix ' . $prefix);
         }
-        Log::info($this->$filesystems[$prefix]);
         return $this->filesystems[$prefix];
     }
 

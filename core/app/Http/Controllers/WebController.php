@@ -23,7 +23,6 @@ use App\Models\Team;
 use App\Models\Aboutimages;
 use Image;
 use Str;
-use Log;
 
 
 
@@ -309,12 +308,10 @@ class WebController extends Controller
     } 
     public function CreatePage(Request $request)
     {
-        Log::info($request->all());
         $data=new Page();
         $data->title=$request->title;
         $data->slug=Str::slug($request->title);
         $data->content=utf8_encode(Purifier::clean($request->content));
-        Log::info($data);
         $data->save();
         return back()->with('success', 'Saved Successfully!');
     } 

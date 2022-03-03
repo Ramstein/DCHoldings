@@ -40,7 +40,6 @@ use App\Models\Banktransfer;
 use App\Models\Savings;
 use Carbon\Carbon;
 use Image;
-use Log;
 
 
 
@@ -341,7 +340,6 @@ class CheckController extends Controller
     
     public function Replyticket(Request $request)
     {        
-        // Log::info($request);
         $set=Settings::first();
         $ticket=Ticket::whereTicket_id($request->ticket_id)->first();
         $user=User::find($ticket->user_id);

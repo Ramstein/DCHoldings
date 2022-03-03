@@ -15,7 +15,6 @@ use App\Models\Blog;
 use App\Models\Category;
 use Image;
 use Str;
-use Log;
 
 
 
@@ -140,9 +139,6 @@ class PostController extends Controller
             // $result = Storage::disk($defaultFileSystem)->put($location, Image::make($image));
             // $url = Storage::disk($defaultFileSystem)->url($location);
 
-            // Log::info($url);
-            // Log::info($path);
-            // Log::info($filename);
 
             $path = './asset/thumbnails/';
             File::delete($path.$data->image);
@@ -175,9 +171,6 @@ class PostController extends Controller
             // $path = Storage::disk($defaultFileSystem)->put($location, Image::make($image));
             // $url = Storage::disk($defaultFileSystem)->url($location);
 
-            // Log::info($url);
-            // Log::info($path);
-            // Log::info($filename);
             // $data['image'] = $url;
 
             $data['image'] = $filename;

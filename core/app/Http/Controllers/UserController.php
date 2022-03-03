@@ -40,7 +40,6 @@ use Session;
 use Image;
 use Redirect;
 use League\Flysystem\MountManager;
-use Log;
 
 
 
@@ -573,7 +572,6 @@ class UserController extends Controller
             $code = strtoupper(Str::random(6));
             $user->email_time = Carbon::now();
             $user->verification_code = $code;
-            Log::info($user);
             $user->save();
             if($set['email_notify']==1){
             send_email($user->email, $user->username, 'Verification Code', 'Your Verification Code is ' . $code);
