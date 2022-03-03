@@ -294,7 +294,7 @@
             </li>            
           </ul>
           <div class="py-5 text-center font-weight-bold">
-              <span class="text-light"> D & C v1.3.0</span>
+              <span class="text-light"> AX v3.0.0</span>
           </div>
         </div>
       </div>

@@ -22,7 +22,7 @@
                             <div class="form-group">
                                 <div class="custom-file">
                                     <input type="file" class="custom-file-input" id="customFileLang2" name="image" lang="en" required>
-                                    <label class="custom-file-label" for="customFileLang2">{{__('Choose Media')}}</label>
+                                    <label class="custom-file-label" for="customFileLang2">{{__('Choose Media (Only jpg, png files)')}}</label>
                                 </div>
                             </div>         
                             <div class="text-right">

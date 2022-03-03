@@ -23,6 +23,7 @@ use App\Models\Team;
 use App\Models\Aboutimages;
 use Image;
 use Str;
+use Log;
 
 
 
@@ -91,7 +92,7 @@ class WebController extends Controller
 //Privacy
     public function privacypolicy()
     {
-        $data['title']='Privacy policy';
+        $data['title']='Privacy Policy';
         $data['value'] = About::first();
         return view('admin.web-control.privacy-policy', $data);
     }
@@ -308,10 +309,12 @@ class WebController extends Controller
     } 
     public function CreatePage(Request $request)
     {
+        Log::info($request->all());
         $data=new Page();
         $data->title=$request->title;
         $data->slug=Str::slug($request->title);
-        $data->content=Purifier::clean($request->content);
+        $data->content=utf8_encode(Purifier::clean($request->content));
+        Log::info($data);
         $data->save();
         return back()->with('success', 'Saved Successfully!');
     } 
@@ -560,6 +563,8 @@ class WebController extends Controller
             Image::make($image)->save($location);
             $data->image=$filename;
         }
+        $data->name = $request->name;
+        $data->position = $request->position;
         $data->save();
         return redirect()->route('admin.team')->with('success', 'Saved Successfully!');
     }       

@@ -37,7 +37,7 @@
                       <div class="custom-file text-center">
                       <input type="hidden" value="{{$check}}" name="id">
                           <input type="file" class="custom-file-input" name="image" accept="image/*" id="customFileLang">
-                          <label class="custom-file-label" for="customFileLang">{{__('Choose Media')}}</label>
+                          <label class="custom-file-label" for="customFileLang">{{__('Choose Media (Only jpg, png)')}}</label>
                       </div>
                   </div>
               </div>

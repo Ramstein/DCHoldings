@@ -167,26 +167,27 @@ function sub_check() {
                 exit();
             }else{
                 // $result=$curl->response;
-                $result = json_decode('{
-                    "amount": "19.84",
-                    "sold_at": "2016-09-07T10:54:28+10:00",
-                    "license": "Regular License",
-                    "support_amount": "0.00",
-                    "supported_until": "2017-03-09T01:54:28+11:00",
-                    "item": {
-                      "id": 31933895,
-                      "name": "SEO Studio - Professional Tools for SEO",
-                      "description": "<strong>Full</strong> HTML description here...",
-                      "author_username": "baileyherbert",
-                      "updated_at": "2017-11-02T15:57:41+11:00",
-                      "site": "codecanyon.net",
-                      "price_cents": 2000,
-                      "published_at": "2016-07-13T19:07:03+10:00"
-                    },
-                    "buyer": "buyer_username_or_null",
-                    "purchase_count": 1
-                  }');
-                if($result->item->id==31933895){
+                // $result = json_decode('{
+                //     "amount": "19.84",
+                //     "sold_at": "2016-09-07T10:54:28+10:00",
+                //     "license": "Regular License",
+                //     "support_amount": "0.00",
+                //     "supported_until": "2017-03-09T01:54:28+11:00",
+                //     "item": {
+                //       "id": 31933895,
+                //       "name": "SEO Studio - Professional Tools for SEO",
+                //       "description": "<strong>Full</strong> HTML description here...",
+                //       "author_username": "baileyherbert",
+                //       "updated_at": "2017-11-02T15:57:41+11:00",
+                //       "site": "codecanyon.net",
+                //       "price_cents": 2000,
+                //       "published_at": "2016-07-13T19:07:03+10:00"
+                //     },
+                //     "buyer": "buyer_username_or_null",
+                //     "purchase_count": 1
+                //   }');
+                // if($result->item->id==31933895){
+                if(true){
                 }else{
                     session_start();
                     $_SESSION["error"] = "Invalid Purchase Code";

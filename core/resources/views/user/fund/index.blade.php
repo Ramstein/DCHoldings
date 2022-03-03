@@ -64,7 +64,7 @@
                 <div class="form-group">
                     <div class="custom-file">
                         <input type="file" class="custom-file-input" id="customFileLang" name="image" lang="en" required>
-                        <label class="custom-file-label" for="customFileLang">{{__('Proof')}}</label>
+                        <label class="custom-file-label" for="customFileLang">{{__('Proof (Only jpg, png files)')}}</label>
                     </div>
                 </div>
                 @endif

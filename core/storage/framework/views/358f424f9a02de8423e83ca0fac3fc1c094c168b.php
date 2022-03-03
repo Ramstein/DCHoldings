@@ -31,7 +31,7 @@
               </div>
             </div> 
             <div class="form-group row">
-              <label class="col-form-label col-lg-3"><?php echo e(__('Proof of Payment')); ?></label>
+              <label class="col-form-label col-lg-3"><?php echo e(__('Proof of Payment, (Only JPG, PNG)')); ?></label>
               <div class="col-lg-9">
                 <div class="custom-file">
                   <input type="file" class="custom-file-input" id="customFileLang" name="image" lang="en">

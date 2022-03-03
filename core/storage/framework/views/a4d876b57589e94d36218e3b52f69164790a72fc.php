@@ -28,7 +28,8 @@
             <div class="col-md-6 d-none d-md-inline-block">
                 <!-- SVG Illustration -->
                 <figure class="w-100">
-                    <img class="img-fluid" src="<?php echo e(url('/')); ?>/asset/images/<?php echo e($ui->image1); ?>" alt="Image Description">
+                    <img class="img-fluid rounded" src="<?php echo e(url('/')); ?>/asset/images/<?php echo e($ui->image1); ?>"
+                        alt="Image Description">
                 </figure>
                 <!-- End SVG Illustration -->
             </div>
@@ -151,7 +152,8 @@
         <div class="col-lg-7 order-lg-1">
             <div class="position-relative">
                 <figure class="w-100">
-                    <img class="img-fluid" src="<?php echo e(url('/')); ?>/asset/images/<?php echo e($ui->image4); ?>" alt="Image Description">
+                    <img class="img-fluid rounded" src="<?php echo e(url('/')); ?>/asset/images/<?php echo e($ui->image4); ?>"
+                        alt="Image Description">
                 </figure>
             </div>
         </div>
@@ -188,8 +190,10 @@
             <!-- Mockups -->
             <div class="position-relative max-w-100rem mx-auto">
                 <div class="device device-iphone-x w-100 mx-auto">
-                    <img class="device-iphone-x-frame" src="<?php echo e(url('/')); ?>/asset/images/<?php echo e($ui->image2); ?>"
+                    <img class="device-iphone-x-frame rounded" src="<?php echo e(url('/')); ?>/asset/images/<?php echo e($ui->image2); ?>"
                         alt="Image Description">
+
+
                 </div>
             </div>
             <!-- End Mockups -->

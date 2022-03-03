@@ -97,7 +97,7 @@
                                                         </div>
                                                     </div>  
                                                     <div class="form-group row">
-                                                        <label class="col-form-label col-lg-2">{{ __('Details')}}:</label>
+                                                        <label class="col-form-label col-lg-2">{{ __('Details: Type it only, no copy-paste')}}:</label>
                                                         <div class="col-lg-10">
                                                             <textarea type="text" name="content" class="form-control tinymce">{{$val->content}}</textarea>
                                                         </div>
@@ -133,7 +133,7 @@
                             </div>
                         </div> 
                         <div class="form-group row">
-                            <label class="col-form-label col-lg-2">{{ __('Details')}}:</label>
+                            <label class="col-form-label col-lg-2">{{ __('Details: Type it only, no any copy-paste')}}:</label>
                             <div class="col-lg-10">
                                 <textarea type="text" name="content" class="form-control tinymce"></textarea>
                             </div>
